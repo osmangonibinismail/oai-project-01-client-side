@@ -8,6 +8,7 @@ import { app } from '../../Firebase/firebase.config';
 import { AuthContext } from '../../Providers/AuthProvider';
 
 const Register = () => {
+    
     const  {registerUser}  = useContext(AuthContext);
     // console.log(registerUser);
     const auth = getAuth(app)
