@@ -2,7 +2,7 @@ import Header from "../Pages/Header/Header";
 
 const Dashboard = () => {
     return(
-        <div>
+        <div className="">
             <Header></Header>
         </div>
     )
