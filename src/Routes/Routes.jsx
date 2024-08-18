@@ -6,7 +6,8 @@ import Register from "../Pages/Register/Register";
 import Products from "../Pages/Products/Products";
 import PrivateRoute from "./PrivateRoute";
 
-export const router = createBrowserRouter([
+export const router = createBrowserRouter(
+  [
     {
       path: "/",
       element: <Main></Main>,
