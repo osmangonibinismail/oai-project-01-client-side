@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
 const Products = () => {
+    
     const [products, setProducts] = useState([]);
     const [page, setPage] = useState(1);
     const [searchQuery, setSearchQuery] = useState('');
