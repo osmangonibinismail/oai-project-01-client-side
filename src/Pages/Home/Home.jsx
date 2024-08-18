@@ -1,5 +1,5 @@
 
-
+// home page
 const Home = () => {
     return(
         <div>
