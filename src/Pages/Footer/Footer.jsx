@@ -8,7 +8,7 @@ const Footer = () => {
           {/* Brand Logo and Name */}
           <div className="mb-4 md:mb-0">
             <a href="/" className="text-2xl font-bold">
-            SadikShop
+            OAI Shop
             </a>
           </div>
           
@@ -54,7 +54,7 @@ const Footer = () => {
         {/* Footer Bottom */}
         <div className="mt-8 border-t border-gray-700 pt-6 text-center">
           <p className="text-sm text-gray-400">
-            &copy; {new Date().getFullYear()} SadikShop. All rights reserved.
+            &copy; {new Date().getFullYear()} OAI Shop. All rights reserved.
           </p>
         </div>
       </div>
